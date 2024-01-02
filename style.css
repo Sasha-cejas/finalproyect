@@ -114,14 +114,14 @@ a{
     
 }
 
-.card img{
+.card img {
     height: 420px;
     width: 600px;
     padding: 5px;
     border-radius: 40px;
 }
 
-.informativo p{
+.informativo p {
     background-color: #ff6d00;
     display: flex;
     color: var(--text-white);
