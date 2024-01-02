@@ -156,9 +156,11 @@ h2{
     background: linear-gradient(90deg, rgba(8,8,8,1) 4%, rgba(255,116,48,1) 35%, rgba(192,0,255,1) 100%);
 }
 
-p , h3 {
+p , span {
     color: var(--text-white);
+    align-items: center;
 }
+
 
 
 .final-card h3{
@@ -166,6 +168,13 @@ p , h3 {
     color: #02050e;
 }
 
+h3{
+    color: #e9eeff;
+}
+
+
+
 div .lis1{
     justify-content: space-around;
 }
+
