@@ -73,6 +73,13 @@ a{
     color:var(--text-white)
 }
 
+h2{
+    background: rgb(8,8,8);
+    background: linear-gradient(90deg, rgba(8,8,8,1) 4%, rgba(255,116,48,1) 35%, rgba(192,0,255,1) 100%);
+    color:#f0fbff;
+    font-size: 300%;
+}
+
 
 .hero-section{
     display: flex;
@@ -114,18 +121,51 @@ a{
     
 }
 
-.card img {
+.card img{
     height: 420px;
     width: 600px;
     padding: 5px;
     border-radius: 40px;
 }
 
-.informativo p {
+.informativo p{
     background-color: #ff6d00;
     display: flex;
     color: var(--text-white);
     padding: 30px;
     text-align: center;
     flex-direction: column;
+}
+
+
+.info.card{
+    background-color: #02050e;
+}
+
+
+
+.info-cards-container{
+    padding: 70px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:150px;
+    text-align: end;   
+    background: rgb(8,8,8);
+    background: linear-gradient(90deg, rgba(8,8,8,1) 4%, rgba(255,116,48,1) 35%, rgba(192,0,255,1) 100%);
+}
+
+p , h3 {
+    color: var(--text-white);
+}
+
+
+.final-card h3{
+    display: flex;
+    color: #02050e;
+}
+
+div .lis1{
+    justify-content: space-around;
 }
